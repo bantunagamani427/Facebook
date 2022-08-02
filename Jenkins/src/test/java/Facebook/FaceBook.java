@@ -1,8 +1,10 @@
 package Facebook;
 
-public class FaceBook {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class FaceBook {
+@Test
+public void facebook() {
 System.out.println("hi this is FaceBook");
 	}
 
