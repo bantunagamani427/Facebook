@@ -14,6 +14,7 @@ public void run() {
 	driver.get("https://www.facebook.com/");
 	String fb = driver.getCurrentUrl();
 System.out.println(fb);
+System.out.println("nagamani");
 	}
 
 }
