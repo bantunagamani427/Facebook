@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FaceBook {
 @Test
-public void facebook() {
+public void run() {
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.com/");
